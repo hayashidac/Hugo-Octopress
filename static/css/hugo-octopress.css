@@ -171,11 +171,11 @@ html {
     background: #252525 top left
 }
 body>div {
-    background: #f2f2f2  top left;
+    background: #fffeef top left;
     border-bottom: 1px solid #bfbfbf
 }
 body>div>div {
-    background: #f8f8f8 top left;
+    background: #fffeef left;
     border-right: 1px solid #e0e0e0
 }
 .heading,
@@ -772,7 +772,9 @@ body.sidebar-footer .toggle-sidebar {
     }
 }
 body>header {
-    background: #333
+    background: url(//169.254.173.205:1313/orange.jpg) left top no-repeat #fff;
+    background-size:cover;
+/*   background: #333 */
 }
 body>header h1 {
     display: inline-block;
@@ -782,22 +784,24 @@ body>header h1 a,
 body>header h1 a:visited,
 body>header h1 a:hover {
     color: #f2f2f2;
+    font-family: 'Great Vibes', Georgia, serif;
     text-decoration: none
 }
 body>header h2 {
     margin: .2em 0 0;
     font-size: 1em;
-    color: #aaa;
+/*    color: #aaa;*/
+    color: #f2f2f2;
     font-weight: normal
 }
 body>nav {
     position: relative;
-    background-color: #ccc;
-    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));
+    background-color: #fffff0;
+/*    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));
     background: -webkit-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
     background: -moz-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
     background: -o-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-    background: linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+    background: linear-gradient(#e0e0e0, #cccccc, #b0b0b0);*/
     border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #8c8c8c;
     padding-top: .35em;
